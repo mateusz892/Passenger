@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w49DU5SOaHrZvQhcQNKzqQKcSMsbgJvlfAUvDqftVlFcaGTfmfrw6qRrQovMV1AWxSHGNcCc45pOS/+ZI1rY6g==",
+  "success": true,
+  "projectFilePath": "C:\\Source\\Passenger\\Passenger.Core\\Passenger.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matot\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\matot\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

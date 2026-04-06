@@ -1,0 +1,5 @@
+C:\Users\matot\dev\Passenger\Passenger.Core\obj\Debug\netstandard1.4\Passenger.Core.csproj.AssemblyReference.cache
+C:\Users\matot\dev\Passenger\Passenger.Core\obj\Debug\netstandard1.4\Passenger.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matot\dev\Passenger\Passenger.Core\obj\Debug\netstandard1.4\Passenger.Core.AssemblyInfoInputs.cache
+C:\Users\matot\dev\Passenger\Passenger.Core\obj\Debug\netstandard1.4\Passenger.Core.AssemblyInfo.cs
+C:\Users\matot\dev\Passenger\Passenger.Core\obj\Debug\netstandard1.4\Passenger.Core.csproj.CoreCompileInputs.cache

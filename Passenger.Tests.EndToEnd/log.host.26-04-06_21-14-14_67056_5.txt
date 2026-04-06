@@ -1,0 +1,68 @@
+TpTrace Information: 0 : 4500, 1, 2026/04/06, 21:14:14.773, 22009112153763, testhost.dll, DefaultEngineInvoker: Monitoring parent process with id: '6164'
+TpTrace Information: 0 : 4500, 1, 2026/04/06, 21:14:14.784, 22009112241322, testhost.dll, DefaultEngineInvoker: Initialize communication on port number: '53165'
+TpTrace Information: 0 : 4500, 1, 2026/04/06, 21:14:14.787, 22009112264830, testhost.dll, Trying to connect to server on port : 53165
+TpTrace Information: 0 : 4500, 10, 2026/04/06, 21:14:14.797, 22009112366040, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 4500, 1, 2026/04/06, 21:14:14.899, 22009113388382, testhost.dll, DefaultEngineInvoker: Start Request Processing.
+TpTrace Information: 0 : 4500, 10, 2026/04/06, 21:14:14.930, 22009113700445, testhost.dll, Invalid Message types
+TpTrace Information: 0 : 4500, 10, 2026/04/06, 21:14:14.932, 22009113713198, testhost.dll, Discovery Session Initialize.
+TpTrace Information: 0 : 4500, 10, 2026/04/06, 21:14:14.940, 22009113796412, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:14.940, 22009113799262, testhost.dll, TestPluginCache: Updating loadOnlyWellKnownExtensions from False to False.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:14.941, 22009113807051, testhost.dll, TestPluginCache: Using directories for assembly resolution 'C:\Source\Passenger\Passenger.Tests.EndToEnd\bin\Debug\net6.0'.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:14.941, 22009113807614, testhost.dll, TestPluginCache: Updated the available extensions to 'C:\Source\Passenger\Passenger.Tests.EndToEnd\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll'.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:14.942, 22009113817477, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:14.945, 22009113851523, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Error: 0 : 4500, 11, 2026/04/06, 21:14:14.946, 22009113855447, testhost.dll, Default extensions folder does not exist
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:14.951, 22009113904805, testhost.dll, AssemblyResolver: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:14.955, 22009113949007, testhost.dll, AssemblyResolver: xunit.runner.visualstudio.dotnetcore.testadapter: Resolved assembly. 
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:14.969, 22009114090398, testhost.dll, AssemblyResolver: xunit.runner.utility.netstandard15: Resolving assembly.
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:14.973, 22009114126167, testhost.dll, AssemblyResolver: xunit.runner.utility.netstandard15: Resolved assembly. 
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.001, 22009114404342, testhost.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Source\Passenger\Passenger.Tests.EndToEnd\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll'.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.001, 22009114408460, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.TestAdapter.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.2.0.1274, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.001, 22009114409259, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2'.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.001, 22009114409762, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.001, 22009114410135, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.004, 22009114436767, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.TestAdapter.VsTestRunner
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.004, 22009114437739, testhost.dll, TestDiscoveryManager: LoadExtensions: Created discoverer Xunit.Runner.VisualStudio.TestAdapter.VsTestRunner
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.004, 22009114438480, testhost.dll, TestExecutorService: Loaded the discoverers
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.007, 22009114470165, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.TestAdapter.VsTestRunner
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.007, 22009114470856, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.TestAdapter.VsTestRunner
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.007, 22009114471171, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.009, 22009114484221, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.009, 22009114484677, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.026, 22009114660289, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.038, 22009114778084, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.ObjectModel.resources: Resolving assembly.
+TpTrace Warning: 0 : 4500, 11, 2026/04/06, 21:14:15.043, 22009114825225, testhost.dll, Nieprawidłowe ustawienia „RunConfiguration”. Nieoczekiwany atrybut XmlElement: „CollectSourceInformation”.
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.047, 22009114863614, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Source\Passenger\Passenger.Tests.EndToEnd\bin\Debug\net6.0\Passenger.Tests.EndToEnd.dll
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.050, 22009114898110, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.709, 22009121484626, testhost.dll, AssemblyResolver: xunit.runner.reporters.netstandard15: Resolving assembly.
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.711, 22009121508255, testhost.dll, AssemblyResolver: xunit.runner.reporters.netstandard15: Resolved assembly. 
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.752, 22009121916898, testhost.dll, [xUnit.net 00:00:00.7003597]   Discovering: Passenger.Tests.EndToEnd
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.792, 22009122319869, testhost.dll, [xUnit.net 00:00:00.7414913]   Discovered:  Passenger.Tests.EndToEnd
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.813, 22009122532267, testhost.dll, [xUnit.net 00:00:00.7627401]   Starting:    Passenger.Tests.EndToEnd
+TpTrace Error: 0 : 4500, 16, 2026/04/06, 21:14:15.910, 22009123497780, testhost.dll, [xUnit.net 00:00:00.8592946]     Passenger.Tests.EndToEnd.Controllers.UsersControllerTests.given_unique_email_user_should_be_created [FAIL]
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.911, 22009123506866, testhost.dll, [xUnit.net 00:00:00.8602016]       System.MissingMethodException : Method not found: 'Void Microsoft.AspNetCore.Hosting.Server.IServer.Start(Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1<!!0>)'.
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.912, 22009123516329, testhost.dll, [xUnit.net 00:00:00.8611404]       Stack Trace:
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.915, 22009123544975, testhost.dll, [xUnit.net 00:00:00.8640053]            at Passenger.Tests.EndToEnd.Controllers.ControllerTestsBase..ctor()
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.915, 22009123547748, testhost.dll, [xUnit.net 00:00:00.8642994]            at Passenger.Tests.EndToEnd.Controllers.UsersControllerTests..ctor()
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.915, 22009123549330, testhost.dll, [xUnit.net 00:00:00.8644608]            at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean wrapExceptions)
+TpTrace Error: 0 : 4500, 16, 2026/04/06, 21:14:15.923, 22009123628764, testhost.dll, [xUnit.net 00:00:00.8723996]     Passenger.Tests.EndToEnd.Controllers.AccountControllerTests.given_valid_current_and_new_password_it_should_be_changed [FAIL]
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.923, 22009123631078, testhost.dll, [xUnit.net 00:00:00.8726342]       System.MissingMethodException : Method not found: 'Void Microsoft.AspNetCore.Hosting.Server.IServer.Start(Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1<!!0>)'.
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.923, 22009123632431, testhost.dll, [xUnit.net 00:00:00.8727739]       Stack Trace:
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.924, 22009123633558, testhost.dll, [xUnit.net 00:00:00.8728849]            at Passenger.Tests.EndToEnd.Controllers.ControllerTestsBase..ctor()
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.924, 22009123634862, testhost.dll, [xUnit.net 00:00:00.8730154]            at Passenger.Tests.EndToEnd.Controllers.AccountControllerTests..ctor()
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.924, 22009123636101, testhost.dll, [xUnit.net 00:00:00.8731384]            at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean wrapExceptions)
+TpTrace Warning: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123644896, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123645872, testhost.dll, InProgressTests is null
+TpTrace Error: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123647416, testhost.dll, [xUnit.net 00:00:00.8742641]     Passenger.Tests.EndToEnd.Controllers.UsersControllerTests.given_valid_email_user_should_exist [FAIL]
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123648994, testhost.dll, [xUnit.net 00:00:00.8744269]       System.MissingMethodException : Method not found: 'Void Microsoft.AspNetCore.Hosting.Server.IServer.Start(Microsoft.AspNetCore.Hosting.Server.IHttpApplication`1<!!0>)'.
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123649947, testhost.dll, [xUnit.net 00:00:00.8745264]       Stack Trace:
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123650707, testhost.dll, [xUnit.net 00:00:00.8746028]            at Passenger.Tests.EndToEnd.Controllers.ControllerTestsBase..ctor()
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123651506, testhost.dll, [xUnit.net 00:00:00.8746784]            at Passenger.Tests.EndToEnd.Controllers.UsersControllerTests..ctor()
+TpTrace Information: 0 : 4500, 16, 2026/04/06, 21:14:15.925, 22009123652436, testhost.dll, [xUnit.net 00:00:00.8747754]            at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean wrapExceptions)
+TpTrace Warning: 0 : 4500, 16, 2026/04/06, 21:14:15.926, 22009123653578, testhost.dll, InProgressTests is null
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.927, 22009123664016, testhost.dll, [xUnit.net 00:00:00.8759218]   Finished:    Passenger.Tests.EndToEnd
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.928, 22009123675785, testhost.dll, TestExecutionManager.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2
+TpTrace Information: 0 : 4500, 11, 2026/04/06, 21:14:15.930, 22009123702208, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 4500, 11, 2026/04/06, 21:14:15.971, 22009124109884, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Information: 0 : 4500, 10, 2026/04/06, 21:14:15.972, 22009124118428, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 4500, 10, 2026/04/06, 21:14:15.973, 22009124125216, testhost.dll, Closing the connection !
