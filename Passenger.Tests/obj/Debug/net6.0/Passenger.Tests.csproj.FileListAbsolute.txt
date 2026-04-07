@@ -94,7 +94,6 @@ C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.GeneratedMS
 C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.AssemblyInfoInputs.cache
 C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.AssemblyInfo.cs
 C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.csproj.CoreCompileInputs.cache
-C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenge.430DA2B3.Up2Date
 C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.dll
 C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\refint\Passenger.Tests.dll
 C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.pdb
@@ -107,3 +106,8 @@ C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.Code
 C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Source\Passenger\Passenger.Tests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Source\Passenger\Passenger.Tests\obj\Debug\net6.0\Passenger.Tests.csproj.CopyComplete

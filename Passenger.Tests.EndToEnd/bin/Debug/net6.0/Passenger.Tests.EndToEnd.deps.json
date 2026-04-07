@@ -2218,6 +2218,8 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Autofac": "9.1.0",
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Newtonsoft.Json": "10.0.1",
           "Passenger.Core": "1.0.0"
         },
