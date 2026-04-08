@@ -1,20 +1,24 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Passenger.Core.Repositories;
 using Passenger.Infrastructure.IoC;
 using Passenger.Infrastructure.IoC.Modules;
 using Passenger.Infrastructure.Mappers;
 using Passenger.Infrastructure.Repositories;
 using Passenger.Infrastructure.Services;
+using Passenger.Infrastructure.Settings;
 
 namespace Passenger.Api
 {
@@ -37,9 +41,29 @@ namespace Passenger.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            // 1. Setup JWT Settings (assuming it's in your appsettings.json)
+            var jwtSettings = Configuration.GetSection("jwt").Get<JwtSettings>();
+            services.AddSingleton(jwtSettings);
+            // 2. Add Authentication Services
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidIssuer = jwtSettings.Issuer,
+                    ValidateAudience = false,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key))
+                };
+            });
             // Add framework services.
+            services.AddAuthorization(x => x.AddPolicy("Admin", p => p.RequireRole("admin")));
             services.AddMvc(options => options.EnableEndpointRouting = false);
             var builder = new ContainerBuilder();
+
             builder.Populate(services);
             builder.RegisterModule(new ContainerModule(Configuration));
             ApplicationContainer = builder.Build();
@@ -54,6 +78,18 @@ namespace Passenger.Api
             //loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             //loggerFactory.AddDebug();
 
+            /*var jwtSettings = app.ApplicationServices.GetService<JwtSettings>();
+            app.UseJwtBearerAuthentication(new JwtBearerOptions
+            {
+                AutomaticAuthenticate = true,
+                TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidIssuer = jwtSettings.Issuer,
+                    ValidateAudience = false,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key))
+                }
+            });*/
+            app.UseAuthentication();
             app.UseMvc();
             appLitetime.ApplicationStopped.Register(() => ApplicationContainer.Dispose());
         }

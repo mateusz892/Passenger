@@ -12,9 +12,9 @@ namespace Passenger.Infrastructure.Repositories
         private static ISet<User> _users = new HashSet<User> // HashSet to jedna z kolekcji która implementuje interface IEnumerable
         // ISet reprezentuje kolekcje która posiada unikalne elementy
         {
-            new User("user1@email.com", "user1", "secret", "salt"),
-            new User("user2@email.com", "user2", "secret", "salt"),
-            new User("user3@email.com", "user3", "secret", "salt")
+            new User("user1@email.com", "user1", "secret", "salt", ""),
+            new User("user2@email.com", "user2", "secret", "salt", ""),
+            new User("user3@email.com", "user3", "secret", "salt", "")
         };
 
 

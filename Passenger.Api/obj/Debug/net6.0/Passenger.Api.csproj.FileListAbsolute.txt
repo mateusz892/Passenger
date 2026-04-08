@@ -186,3 +186,11 @@ C:\Source\Passenger\Passenger.Api\obj\Debug\net6.0\refint\Passenger.Api.dll
 C:\Source\Passenger\Passenger.Api\obj\Debug\net6.0\Passenger.Api.pdb
 C:\Source\Passenger\Passenger.Api\obj\Debug\net6.0\Passenger.Api.genruntimeconfig.cache
 C:\Source\Passenger\Passenger.Api\obj\Debug\net6.0\ref\Passenger.Api.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Source\Passenger\Passenger.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Passenger.Infrastructure.Commands;
 using Passenger.Infrastructure.Commands.Users;
@@ -19,6 +20,7 @@ namespace Passenger.Api.Controllers
             _userService = userService;
         }
 
+        [Authorize(Policy = "admin")]
         [HttpGet("{email}")]
         public async Task<IActionResult> Get(string email)
         {
@@ -33,7 +35,7 @@ namespace Passenger.Api.Controllers
         [HttpPost("")]
         public async Task<IActionResult> Post([FromBody] CreateUser command)
         {
-            await _userService.RegisterAsync(command.Email, command.Username, command.Password);
+            await _userService.RegisterAsync(command.Email, command.Username, command.Password, command.Role);
 
             return Created($"users/{command.Email}", new object());
         }
